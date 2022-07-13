@@ -34,5 +34,6 @@ public class Person {
     }
     public void personDescription(){
         System.out.println("Hello!My name is Gabriel");
+        System.out.println("something about my city");
     }
 }
