@@ -1,26 +1,25 @@
 package com.example.springboot;
 
 public class Person {
-    private String firstName;
+
+    private String fullName;
     private int age;
     private String sex;
-
-    private String lastName;
     private String address;
     private String phoneNumber;
 
-    public Person(String lastName, String address, String phoneNumber) {
-        this.lastName = lastName;
+    public Person(String fullName, String address, String phoneNumber) {
+        this.fullName = fullName;
         this.address = address;
         this.phoneNumber = phoneNumber;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
     public String getAddress() {
@@ -43,13 +42,6 @@ public class Person {
         System.out.println("Created a null person.");
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
 
     public int getAge() {
         return age;
