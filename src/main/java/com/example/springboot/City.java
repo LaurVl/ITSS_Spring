@@ -4,24 +4,24 @@ import java.util.List;
 
 public class City {
     
-    private List<String> sectors_name;
-    private Integer banks_no;
+    private List<String> sectorsName;
+    private Integer banksNo;
 
 
-    public List<String> getSectors_name() {
-        return sectors_name;
+    public List<String> getSectorsName() {
+        return sectorsName;
     }
 
-    public void setSectors_name(List<String> sectors_name) {
-        this.sectors_name = sectors_name;
+    public void setSectorsName(List<String> sectorsName) {
+        this.sectorsName = sectorsName;
     }
 
-    public Integer getBanks_no() {
-        return banks_no;
+    public Integer getBanksNo() {
+        return banksNo;
     }
 
-    public void setBanks_no(Integer banks_no) {
+    public void setBanks_no(Integer banksNo) {
 
-        this.banks_no = banks_no;
+        this.banksNo = banksNo;
     }
 }
