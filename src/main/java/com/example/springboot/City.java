@@ -1,13 +1,12 @@
 package com.example.springboot;
 
-<<<<<<< HEAD
 import java.util.List;
 
 public class City {
     
     private List<String> sectorsName;
     private Integer banksNo;
-
+    ArrayList<String> transportationTypes = new ArrayList<String>();
 
     public List<String> getSectorsName() {
         return sectorsName;
@@ -25,10 +24,4 @@ public class City {
 
         this.banksNo = banksNo;
     }
-=======
-import java.util.ArrayList;
-
-public class City {
-    ArrayList<String> transportationTypes = new ArrayList<String>();
->>>>>>> feature/Georgiana
 }
