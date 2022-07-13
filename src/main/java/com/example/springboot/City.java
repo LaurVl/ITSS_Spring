@@ -1,5 +1,6 @@
 package com.example.springboot;
 
+<<<<<<< HEAD
 import java.util.List;
 
 public class City {
@@ -24,4 +25,10 @@ public class City {
 
         this.banksNo = banksNo;
     }
+=======
+import java.util.ArrayList;
+
+public class City {
+    ArrayList<String> transportationTypes = new ArrayList<String>();
+>>>>>>> feature/Georgiana
 }
