@@ -32,4 +32,7 @@ public class Person {
     public void setSex(String sex) {
         this.sex = sex;
     }
+    public void personDescription(){
+        System.out.println("Hello!My name is Gabriel");
+    }
 }
